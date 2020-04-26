@@ -1,0 +1,13 @@
+#PBS -N STGAN-lpandlc
+#PBS -o /home/chenjun/HDR/output.out
+#PBS -e /home/chenjun/HDR/outputerr.err
+#PBS -l nodes=node4:ppn=2:gpus=1
+#PBS -r y
+
+module load conda
+source activate py3pytorch1.2.0
+
+cd /home/chenjun/HDR/
+
+python train.py
+source deactivate
