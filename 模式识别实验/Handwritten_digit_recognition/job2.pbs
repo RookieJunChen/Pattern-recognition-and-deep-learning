@@ -1,0 +1,13 @@
+#PBS -N test
+#PBS -o /home/chenjun/test/log/hdrout.out
+#PBS -e /home/chenjun/test/log/hdrerr.err
+#PBS -l nodes=node5:ppn=2:gpus=1
+#PBS -r y
+
+module load conda
+source activate tensorflow
+
+cd /home/chenjun/test/
+
+python MyHDR.py
+source deactivate
