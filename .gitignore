@@ -139,6 +139,6 @@ dmypy.json
 cython_debug/
 
 # PDF、docx
-.pdf
-.docx
-.doc
+*.pdf
+*.docx
+*.doc
