@@ -18,7 +18,7 @@
 
 这是Pytorch深度学习系列的第二个项目。
 
-在上一篇文章https://blog.csdn.net/junbaba_/article/details/105670088文章中，我们实现了一个基础的神经网络。这次，我们要更进一步，实现一个CNN（卷积神经网络）——AlexNet。
+在上一篇文章[Pytorch实现MLP并在MNIST数据集上验证](https://blog.csdn.net/junbaba_/article/details/105670088)文章中，我们实现了一个基础的神经网络。这次，我们要更进一步，实现一个CNN（卷积神经网络）——AlexNet。
 
 2012 年，Alex 等人提出的 AlexNet 网络在 ImageNet 大赛上以远超第二名的成绩夺冠，卷积神经网络乃至深度学习重新引起了广泛的关注。AlexNet 是在 LeNet 的基础上加深了网络的结构，学习更丰富更高维的图像特征。AlexNet 的特点：
 
@@ -33,7 +33,7 @@
 
 <h3 id = "2">数据集</h3>
 
-本次使用的数据集为CIFAR-10数据集，官网上可能下载较慢，可以在https://pan.baidu.com/s/1bGVGeeiw001qz-PUk7q1Uw（提取码：m35y）中下载python版本的数据集。
+本次使用的数据集为CIFAR-10数据集，官网上可能下载较慢，可以在[https://pan.baidu.com/s/1bGVGeeiw001qz-PUk7q1Uw](https://pan.baidu.com/s/1bGVGeeiw001qz-PUk7q1Uw)（提取码：m35y）中下载python版本的数据集。
 
 数据集存放在根目录下data目录中，结构如下:
 
@@ -94,7 +94,7 @@ def __init__(self, num_classes=10):
 
 **MyCIFAR10.py：**
 
-详细原理可以参照我的这篇文章：https://blog.csdn.net/junbaba_/article/details/105740713
+详细原理可以参照我的这篇文章：[（深度学习）构造属于你自己的Pytorch数据集](https://blog.csdn.net/junbaba_/article/details/105740713)
 
 `torch.utils.data.DataLoader` 不仅生成迭代数据非常方便，而且它也是经过优化的，效率十分之高（肯定比我们自己写一个要高多了），因此最好不要舍弃。因此，我的想法是根据 CIFAR-10 数据集构造一个 Dataset 的子类，使之能够作为`torch.utils.data.DataLoader` 的参数，从而使数据集能被我们用于生成迭代数据进行训练与测试。
 
@@ -286,7 +286,7 @@ tensorboard --logdir "./mylog"
 
 ![image-20200427102845049](./pic/5.png)
 
-如果浏览器打开空白页面，可以参考我这篇文章https://blog.csdn.net/junbaba_/article/details/105750415的解决方案。
+如果浏览器打开空白页面，可以参考我这篇文章[tensorboard命令打开空白页面的解决办法](https://pan.baidu.com/s/1bGVGeeiw001qz-PUk7q1Uw)的解决方案。
 
 <br/><br/><br/><br/>
 
