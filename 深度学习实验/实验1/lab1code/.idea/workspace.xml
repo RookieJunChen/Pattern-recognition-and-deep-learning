@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68db8545-d9bd-4034-9718-1e8a84a682cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../模式识别实验/Handwritten digit recognition/.idea/Handwritten digit recognition.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-    </list>
+    <list default="true" id="68db8545-d9bd-4034-9718-1e8a84a682cc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,6 +117,7 @@
       <workItem from="1587452939792" duration="842000" />
       <workItem from="1587454509498" duration="2877000" />
       <workItem from="1587473073957" duration="5425000" />
+      <workItem from="1588143296050" duration="26000" />
     </task>
     <servers />
   </component>
