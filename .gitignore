@@ -143,3 +143,7 @@ cython_debug/
 *.docx
 *.doc
 data/
+checkpoints/
+logs/
+mylog/
+*.sh
