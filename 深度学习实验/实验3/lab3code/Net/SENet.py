@@ -16,7 +16,7 @@ class SEBlock(nn.Module):
 
     def forward(self, x):
         w = F.adaptive_avg_pool2d(x, 1)  # Squeeze
-        w = self.fc(x)
+        w = self.fc(w)
         w = torch.sigmoid(w)
 
         return x * w  # Scale
