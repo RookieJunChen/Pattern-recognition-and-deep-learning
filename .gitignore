@@ -145,4 +145,5 @@ data/
 checkpoints/
 logs/
 mylog/
+piclogs/
 *.sh
